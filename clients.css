@@ -1,0 +1,281 @@
+/**{border: 1px dashed green;}*/
+
+html, body {
+  height:100%;
+  background-color:#f1f1f1;
+  font-size:16px;
+}
+.outer_wrapper {
+  position:relative;
+  width:1120px;
+  height:1987px;
+  background-color:white;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  margin: 0 auto;
+}
+
+
+
+
+
+
+/*header*/
+.header_bar {
+  position: relative;
+  height:167px;
+  border-bottom:1px solid #f2f2f2;
+}
+
+.header_bar>a {
+  display:inline-block;
+  padding: 20px 0 0 60px;
+  margin: 0;
+}
+
+.header_bar>a>img {
+  display:inline-block;
+  vertical-align:-28px;
+}
+
+.header_text {
+  display:inline-block;
+  padding: 0 0 0 10px;
+}
+.header_text>h1 {
+  font-family: Josefin Sans;
+}
+
+#email_button {
+  position:absolute;
+  right:2%;
+  top:10%;
+  width:24px;
+  margin:0;
+  padding:0;
+}
+
+
+
+
+
+
+/*menu*/
+.menu_bar {
+  height:73px;
+  border-bottom:1px solid #f2f2f2;
+  text-align:center;
+}
+ul {
+  padding: 17px 0;
+}
+li {
+  display:inline-block;
+}
+.menu_bar>ul>li>a {
+  padding: 0 5px;
+  margin: 0 15px;
+  font-family: Josefin Sans;
+  text-decoration:none;
+  color:black;
+}
+
+
+
+
+/*main content*/
+.main_content {
+  padding: 30px 75px 0 75px;
+}
+h2>em {
+  font-family: Josefin Sans;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+/*images*/
+.img_para_wrapper {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+}
+.img_para_wrapper>p {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+.BBC_wrapper {
+  height: 261px;
+  width: 464px;
+  font-size: 16px;
+  padding: 12.968px;
+}
+.BBC_desc_wrapper {
+  position: relative;
+  height: 261px;
+  width: 464px;
+  background-image: url(http://www.clarkben.com/tjc/images/bbc_desc.png);
+  color: black;
+  font-family: Josefin Sans;
+  text-align: center;
+}
+.BA_wrapper {
+  height: 261px;
+  width: 464px;
+  font-size: 16px;
+  padding: 12.968px;
+}
+.BA_desc_wrapper {
+  position: relative;
+  height: 261px;
+  width: 464px;
+  background-image: url(http://www.clarkben.com/tjc/images/ba_desc.png);
+  color: black;
+  font-family: Josefin Sans;
+  text-align: center;
+}
+.PHILIPS_wrapper {
+  height: 261px;
+  width: 464px;
+  font-size: 16px;
+  padding: 12.968px;
+}
+.PHILIPS_desc_wrapper {
+  position: relative;
+  height: 261px;
+  width: 464px;
+  background-image: url(http://www.clarkben.com/tjc/images/philips_desc.png);
+  color: black;
+  font-family: Josefin Sans;
+  text-align: center;
+}
+.COKE_wrapper {
+  height: 261px;
+  width: 464px;
+  font-size: 16px;
+  padding: 12.968px;
+}
+.COKE_desc_wrapper {
+  position: relative;
+  height: 261px;
+  width: 464px;
+  background-image: url(http://www.clarkben.com/tjc/images/cola_desc.png);
+  color: black;
+  font-family: Josefin Sans;
+  text-align: center;
+}
+.BUPA_wrapper {
+  height: 261px;
+  width: 464px;
+  font-size: 16px;
+  padding: 12.968px;
+}
+.BUPA_desc_wrapper {
+  position: relative;
+  height: 261px;
+  width: 464px;
+  background-image: url(http://www.clarkben.com/tjc/images/bupa_desc.png);
+  color: black;
+  font-family: Josefin Sans;
+  text-align: center;
+}
+.BUPA_desc_wrapper>.img_para_wrapper {
+  padding: 100px;
+}
+.SAMSUNG_wrapper {
+  height: 261px;
+  width: 464px;
+  font-size: 16px;
+  padding: 12.968px;
+}
+.SAMSUNG_desc_wrapper {
+  position: relative;
+  height: 261px;
+  width: 464px;
+  background-image: url(http://www.clarkben.com/tjc/images/SAMSUNG_desc.png);
+  color: black;
+  font-family: Josefin Sans;
+  text-align: center;
+}
+.SAMSUNG_desc_wrapper>div>p {
+  padding: 0 55px;
+}
+.MTV_wrapper {
+  height: 261px;
+  width: 464px;
+  font-size: 16px;
+  padding: 12.968px;
+}
+.MTV_desc_wrapper {
+  position: relative;
+  height: 261px;
+  width: 464px;
+  background-image: url(http://www.clarkben.com/tjc/images/MTV_desc.png);
+  color: black;
+  font-family: Josefin Sans;
+  text-align: center;
+}
+.MTV_desc_wrapper>.img_para_wrapper {
+  padding: 36px;
+}
+.MICROSOFT_wrapper {
+  height: 261px;
+  width: 464px;
+  font-size: 16px;
+  padding: 12.968px;
+}
+.MICROSOFT_desc_wrapper {
+  position: relative;
+  height: 261px;
+  width: 464px;
+  background-image: url(http://www.clarkben.com/tjc/images/MICROSOFT_desc.png);
+  color: black;
+  font-family: Josefin Sans;
+  text-align: center;
+}
+.MICROSOFT_desc_wrapper>.img_para_wrapper {
+  padding: 28px;
+}
+.SKY_wrapper {
+  height: 261px;
+  width: 464px;
+  font-size: 16px;
+  padding: 12.968px;
+}
+.SKY_desc_wrapper {
+  position: relative;
+  height: 261px;
+  width: 464px;
+  background-image: url(http://www.clarkben.com/tjc/images/SKY_desc.png);
+  color: black;
+  font-family: Josefin Sans;
+  text-align: center;
+}
+.SKY_desc_wrapper>.img_para_wrapper {
+  padding: 24px;
+}
+
+/*footer menu*/
+.footer_wrapper {
+  width:1120px;
+  height:90px;
+  background-color:white;
+  border-top:1px solid #f2f2f2;
+  margin: 0 auto;
+  padding: 25px 0 0 0;
+}
+.footermenu {
+  text-align:center;
+}
+.footermenu>a {
+  padding:0;
+  margin:0;
+}
+.footermenu>a>img {
+  width:30px;
+  height:30px;
+}
+.legal {
+  padding:10px 0 0 0 ;
+  text-align:center;
+}

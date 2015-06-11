@@ -1,0 +1,157 @@
+/**{border: 1px dashed green;}*/
+
+html, body {
+  height:100%;
+  background-color:#f1f1f1;
+  font-size:16px;
+}
+.outer_wrapper {
+  position:relative;
+  width:1120px;
+  height:1847px;
+  background-color:white;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  margin: 0 auto;
+}
+
+
+
+
+
+
+/*header*/
+.header_bar {
+  position: relative;
+  height:167px;
+  border-bottom:1px solid #f2f2f2;
+}
+
+.header_bar>a {
+  display:inline-block;
+  padding: 20px 0 0 60px;
+  margin: 0;
+}
+
+.header_bar>a>img {
+  display:inline-block;
+  vertical-align:-28px;
+}
+
+.header_text {
+  display:inline-block;
+  padding: 0 0 0 10px;
+}
+.header_text>h1 {
+  font-family: Josefin Sans;
+}
+
+#email_button {
+  position:absolute;
+  right:2%;
+  top:10%;
+  width:24px;
+  margin:0;
+  padding:0;
+}
+
+
+
+
+
+
+/*menu*/
+.menu_bar {
+  height:73px;
+  border-bottom:1px solid #f2f2f2;
+  text-align:center;
+}
+.menu_bar>ul {
+  padding: 17px 0;
+}
+.menu_bar>ul>li {
+  display:inline-block;
+}
+.menu_bar>ul>li>a {
+  padding: 0 5px;
+  margin: 0 15px;
+  font-family: Josefin Sans;
+  text-decoration:none;
+  color:black;
+}
+
+
+
+
+/*main content*/
+.main_content_wrapper {
+  padding: 30px 35px 0 35px;
+  font-family: Josefin Sans;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size:0;
+  line-height: 1.2;
+}
+.awards_para {
+-webkit-margin-before: 0;
+-webkit-margin-after: 0;
+}
+td>p {
+  font-size: 16px;
+}
+td>ul {
+  font-size: 15px;
+}
+td>h3 {
+  font-size: 19px;
+}
+p>a {
+  text-decoration:none;
+  color: #74a0ff;
+}
+table {
+  border-collapse: separate; border-spacing: 30px;
+}
+.left_col_wrapper, .right_col_wrapper {
+ /*background-color: #baf1ff;*/
+  width: 500px;
+  height: 1380px;
+  vertical-align: top;
+}
+
+.main_content_list {
+  margin: 0;
+  padding-left: 20px;
+}
+.main_content_list>li {
+  display: list-item;
+  margin: 0;
+}
+.blue_text {
+  color: #74a0ff;
+}
+
+
+/*footer menu*/
+.footer_wrapper {
+  width:1120px;
+  height:90px;
+  background-color:white;
+  border-top:1px solid #f2f2f2;
+  margin: 0 auto;
+  padding: 25px 0 0 0;
+}
+.footermenu {
+  text-align:center;
+}
+.footermenu>a {
+  padding:0;
+  margin:0;
+}
+.footermenu>a>img {
+  width:30px;
+  height:30px;
+}
+.legal {
+  padding:10px 0 0 0 ;
+  text-align:center;
+}
